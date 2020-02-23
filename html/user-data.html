@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <title>User data</title>
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__secondary">Datos usuario</h1>
+      <!--incluir AQUI FLECHA para volver a la HOME-->
+     <!--incluir AQUI SVG AVATAR -->
+      <div class="header__action"></div>
+  </header>
+  <main>
+    <div class="container">
+      <form action="..." class="form"><!--Formulario-->
+        <div class="form__group">
+          <label for="name" class="form__label">Nombre</label>
+          <input type="text" name="name" id="name" class="form__control" placeholder="María">
+        </div>
+        <div class="form__group">
+          <label for="surname" class="form__label">Apellidos</label>
+          <input type="text" name="name" id="surname" class="form__control" placeholder="Gómez Cortés">
+        </div>
+        <div class="form__group">
+          <label for="email" class="form__label">Email</label>
+          <input type="email" name="email" id="email" class="form__control" placeholder="mariagcmn@gmail.com"  required>
+        </div>
+        <div class="form__group">
+          <label for="inputPassword" class="form__label">Contraseña</label>
+          <input type="password" name="password" id="inputPassword" class="form__control" maxlength="20" placeholder="********************" required>
+        </div>
+        <div class="form__group">
+          <button type="submit" class="btn btn__btn--done">Guardar</button>  
+        </div>  
+      </form><!--//fin del formulario-->
+    </div>
+  </main> 
+</body>
+</html>

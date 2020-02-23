@@ -1,0 +1,25 @@
+//BUTTON
+//-----------------
+
+.btn {
+ 
+  align-items: center;
+  border-radius: 3px;
+  border: 0;
+  min-width: 4rem;
+  min-height: 1rem;
+  color: #fff;
+  font-family: $font-family-primary;
+  font-weight: $font-weight-large;
+  font-size:$font-size-btn;
+  padding: 4px 10px;
+
+  &__btn--init, &__btn--done {
+    background-color: $save-add;
+  }
+  &__btn--app {
+    width: 113px;
+    height: 35px;
+    margin: 20px 40px;
+  }
+}

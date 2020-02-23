@@ -1,0 +1,41 @@
+//FORM
+//----------------
+
+.form { 
+  text-align: left;
+  font-size: $font-size-base;
+  margin: 3rem;
+
+  &__group {
+    margin: 30px;
+  }
+  &__label {
+    font-size: $font-size-label;  
+  }
+
+  &__control {
+    display: block;
+    width: 25.75rem;//hay que cambiarlo porque al reducir la pantalla no se encogen
+    height: 2rem;
+    border: 1px solid rgb(0, 238, 255);
+    border-radius: 3px;
+  }
+
+  &__action {
+    margin: 30px;
+    padding-top: 30px;
+  }
+  
+  /*&__password--recover {
+
+  }*/
+
+  &__registeredUser {
+    margin: 20px;
+
+  }
+
+  
+}
+
+

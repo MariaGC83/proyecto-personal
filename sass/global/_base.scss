@@ -1,0 +1,25 @@
+//------------------
+//BASE
+//------------------
+
+body {
+  background-color: $body-bgc;
+  color: $body-color;
+  font-family: $font-family-primary;
+  font-size: $font-size-base;
+}
+
+h1 {
+  font-size: $font-size-title;
+  font-weight: $font-weight-bold;
+}
+
+h2 {
+  font-size: $font-size-subtitle;
+  font-weight: $font-weight-medium;
+}
+
+p, ul, ol, blockquote, address, table {
+  margin-bottom: $paragraph-bottom;
+  
+}

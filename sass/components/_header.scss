@@ -1,0 +1,45 @@
+//Header
+//-------------
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10rem;
+  padding: 30px 15px;
+  height: 10rem;
+  background-color: $body-bgc;//probable cambio
+  color: #fff;
+  
+
+  &__title {
+    font-size: $font-size-title;//seguramente cambiaré el valor
+    font-weight: $font-weight-bold;
+    letter-spacing: 0.025rem;
+    margin-bottom: 45px;
+    text-shadow: 2px 2px 5px rgb(3, 3, 3);
+  }
+
+  &__subtitle {
+    font-size: $font-size-subtitle;
+    font-weight: $font-weight-normal;
+    text-shadow: 0 1px 2px rgb(5, 5, 5); 
+  }
+
+  &__secondary {
+    height: 5rem;
+    font-size: $font-size-secondHead;
+    font-weight: $font-weight-medium;
+    text-shadow: 2px 2px 5px rgb(3, 3, 3);
+  }
+
+}
+
+.header__action {
+  border-bottom: 2px solid $gray-200;
+  margin-top: 20px;
+  padding-top: 30px;
+  width: 100%;
+}
+
