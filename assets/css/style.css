@@ -1,3 +1,166 @@
-@import url("https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800&display=swap");*,*::before,*::after{box-sizing:border-box}html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}body{background-color:#47e2da;color:#fff;font-family:"Muli",Arial,sans-serif;font-size:16px}h1{font-size:40px;font-weight:700}h2{font-size:20px;font-weight:500}p,ul,ol,blockquote,address,table{margin-bottom:1rem}.header{display:flex;justify-content:center;align-items:center;flex-direction:column;margin-top:10rem;padding:30px 15px;height:10rem;background-color:#47e2da;color:#fff}.header__title{font-size:40px;font-weight:700;letter-spacing:0.025rem;margin-bottom:45px;text-shadow:2px 2px 5px #030303}.header__subtitle{font-size:20px;font-weight:400;text-shadow:0 1px 2px #050505}.header__secondary{height:5rem;font-size:30px;font-weight:500;text-shadow:2px 2px 5px #030303}.header__action{border-bottom:2px solid #dcdcdf;margin-top:20px;padding-top:30px;width:100%}.form{text-align:left;font-size:16px;margin:3rem}.form__group{margin:30px}.form__label{font-size:17px}.form__control{display:block;width:25.75rem;height:2rem;border:1px solid #0ef;border-radius:3px}.form__action{margin:30px;padding-top:30px}.form__registeredUser{margin:20px}.container{display:flex;align-items:center;justify-content:center;flex-direction:column}.btn{align-items:center;border-radius:3px;border:0;min-width:4rem;min-height:1rem;color:#fff;font-family:"Muli",Arial,sans-serif;font-weight:600;font-size:17px;padding:4px 10px}.btn__btn--init,.btn__btn--done{background-color:#3b99c4}.btn__btn--app{width:113px;height:35px;margin:20px 40px}.modal{display:flex;justify-content:center;align-items:center;position:fixed;top:0;right:0;bottom:0;left:0}
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800&display=swap");
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* Iniciación de la propiedad "display" para etiquetas de HTML5 para navegadores antiguos */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  background-color: #47e2da;
+  color: #fff;
+  font-family: "Muli", Arial, sans-serif;
+  font-size: 16px; }
+
+h1 {
+  font-size: 40px;
+  font-weight: 700; }
+
+h2 {
+  font-size: 20px;
+  font-weight: 500; }
+
+/*p, ul, ol, blockquote, address, table {
+  margin-bottom: $paragraph-bottom;
+  
+}*/
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0.625rem;
+  padding: 1rem 1rem;
+  background-color: #47e2da;
+  color: #fff; }
+  .header--action {
+    border-bottom: 2px solid #dcdcdf;
+    width: 100%;
+    height: 8.5rem; }
+  .header__title--main {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.025rem;
+    margin-bottom: 2.8125rem;
+    text-shadow: 2px 2px 5px #030303; }
+  .header__subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    text-shadow: 0 1px 2px #050505; }
+  .header__title {
+    padding-top: 2rem;
+    font-size: 30px;
+    font-weight: 500;
+    text-shadow: 2px 2px 5px #030303; }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  font-size: 16px; }
+  .form__group {
+    margin: 0.5rem; }
+  .form__label {
+    font-size: 17px; }
+  .form__control {
+    display: block;
+    margin-top: 0.5rem;
+    width: 18rem;
+    height: 2rem;
+    border: 1px solid #00eeff;
+    border-radius: 3px; }
+  .form__action {
+    padding-top: 2rem; }
+  .form__registeredUser {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem; }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto; }
+
+.btn {
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  border: 0;
+  min-width: 4rem;
+  min-height: 1rem;
+  color: #fff;
+  font-family: "Muli", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 4px 10px; }
+  .btn__action {
+    display: inline-flex; }
+  .btn--success, .btn--done {
+    background-color: #3b99c4; }
+  .btn--app {
+    width: 7.0625rem;
+    height: 2.1875rem;
+    margin: 1.25rem; }
+
+.modal {
+  display: flex;
+  justify-content: center;
+  /*centra la modal*/
+  align-items: center;
+  /*centra el item, la crucecita*/
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
 
 /*# sourceMappingURL=../../sass/sourcemap/style.css.map */

@@ -4,6 +4,7 @@
 .btn {
  
   align-items: center;
+  justify-content: center;
   border-radius: 3px;
   border: 0;
   min-width: 4rem;
@@ -14,12 +15,17 @@
   font-size:$font-size-btn;
   padding: 4px 10px;
 
-  &__btn--init, &__btn--done {
+  &__action {
+    display: inline-flex;
+  }
+
+  &--success, &--done {
     background-color: $save-add;
   }
-  &__btn--app {
-    width: 113px;
-    height: 35px;
-    margin: 20px 40px;
+  &--app {
+    width: rem(113px);
+    height: rem(35px);
+    margin: rem(20px);
   }
+
 }
