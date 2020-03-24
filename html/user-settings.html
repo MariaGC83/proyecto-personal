@@ -4,28 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../assets/css/style.css">
-  <title>User settingst</title>
+  <title>User settings</title>
 </head>
 <body>
   <header class="header">
-    <h1 class="header__secondary">Datos usuario</h1>
+    <h1 class="header__title">Configuración</h1>
       <!--incluir AQUI FLECHA para volver a USER PROFILE-->
-      <div class="header__action"></div>
+      <div class="header__action header__action--data"></div>
   </header>
-  <div class="change">
+  <div class="settings">
     <p>Cambia el tamaño de la fuente</p>
-    <div class="change__btn">
-      <button type="submit" class="btn btn__btn--m">Normal</button>
-      <button type="submit" class="btn btn__btn--l">Grande</button>
+    <div class="settings settings__fontSize">
+      <button type="submit" class="btn btn--size">Normal</button>
+      <button type="submit" class="btn btn--size">Grande</button>
     </div>
     <p>Cambia el color de fondo</p>
-    <div class="change__bgc">
-      <button type="button" class="btn btn__btn--color">1</button> 
-      <button type="button" class="btn btn__btn--color">2</button> 
-      <button type="button" class="btn btn__btn--color">3</button> 
-      <button type="button" class="btn btn__btn--color">4</button>
-      <button type="button" class="btn btn__btn--color">5</button> 
-    </div>
+    <ul class="settings settings__background">
+      <li><button type="button" class="button button-uno"></button></li>
+      <li><button type="button" class="button button-dos"></button></li>
+      <li><button type="button" class="button button-tres"></button></li>
+      <li><button type="button" class="button button-cuatro"></button></li>
+      <li><button type="button" class="button button-cinco"></button></li>
+      <li><button type="button" class="button button-seis"></button></li>
+      <li><button type="button" class="button button-siete"></button></li>
+      <li><button type="button" class="button button-ocho"></button></li>
+    </ul>
+      <!-- <button type="button" class="settings settings__button-color">1</button> 
+      <button type="button" class="settings settings__button-color">2</button> 
+      <button type="button" class="settings settings__button-color">3</button> 
+      <button type="button" class="settings settings__button-color">4</button>
+      <button type="button" class="settings settings__button-color">5</button> 
+      <button type="button" class="settings settings__button-color">6</button> 
+      <button type="button" class="settings settings__button-color">7</button> 
+      <button type="button" class="settings settings__button-color">8</button> --> 
+    <!-- </div> -->
   </div>
 </body>
 </html>

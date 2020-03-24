@@ -1,51 +1,51 @@
-//Header
-//-------------
+  //Header
+  //-------------
 
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: rem(10px);
-  padding: 1rem 1rem;
-  //height: 10rem;
-  background-color: $body-bgc;//probable cambio
-  color: #fff;
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 5.70rem;;
+    padding: 1rem rem(12px) 0;
+    background-color: $body-bgc;//probable cambio
+    color: #fff;
+    border-bottom: 1px solid rgb(161, 184, 187);
 
-  &--action {
-    //justify-content: space-between;
-    border-bottom: 2px solid $gray-200;
-    width: 100%;
-    height: 8.5rem;
-
-  }
-  
-  &__title--main {
-    font-size: $font-size-title;//seguramente cambiaré el valor
-    font-weight: $font-weight-bold;
-    letter-spacing: 0.025rem;
-    margin-bottom: rem(45px);
-    text-shadow: 2px 2px 5px rgb(3, 3, 3);
-  }
-
-  &__subtitle {
-    font-size: $font-size-subtitle;
-    font-weight: $font-weight-normal;
-    text-shadow: 0 1px 2px rgb(5, 5, 5); 
-  }
-
-  &__title {
-    padding-top: 2rem;
-    font-size: $font-size-secondHead;
-    font-weight: $font-weight-medium;
-    text-shadow: 2px 2px 5px rgb(3, 3, 3);
-
-
-
-    &--btn {
+    &.header__user {
+      height: 3rem;
 
     }
-  }
+    &__title {
+      height: 8vh;
+      font-size: $font-size-subtitleField;
+      font-weight: $font-weight-normal;
+      letter-spacing: 2px;
+      padding: 10px 0 10px 12px;
+    }
 
-}
+    &__action {
+      width: 100%;
+      
+      /*&--data {
+        height: 4.5rem;
+      }*/
+    }
+    
+    &__title--main {
+      font-size: $font-size-title;//seguramente cambiaré el valor
+      font-weight: $font-weight-bold;
+      letter-spacing: 0.025rem;
+      margin-bottom: rem(45px);
+      //text-shadow: 2px 2px 5px rgb(138, 141, 141);
+    }
+
+    &__subtitle {
+      font-size: $font-size-subtitle;
+      font-weight: $font-weight-normal;
+      //text-shadow: 0 1px 2px rgb(198, 199, 199); 
+    }
+    
+
+  }
 

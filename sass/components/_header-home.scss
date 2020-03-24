@@ -1,0 +1,29 @@
+//Header-home
+//-----------------------------
+
+.header-home {
+  display: inline-block;
+  height: 40vh;
+  padding: 20px;
+  background-color: $body-bgc;
+  
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+  }
+
+  &__subtitle {
+     
+    margin: rem(12px) 0.1rem  0.5rem;
+    font-size: $font-size-subtitleField;
+    font-weight: $font-weight-normal;
+
+  }
+}
+
+.container-home {
+  margin-top: rem(20px);
+}

@@ -7,7 +7,26 @@
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  height: 100%;
-  margin: 0 auto;
+  height: 75vh;
   
+  &.container__user {
+
+    height: 103vh;
+
+  }
+  &__button {
+    margin: 0 0 rem(16px) rem(12px);
+    
+  }
 }
+
+.tooltip {
+  padding: 2rem;
+ 
+  & li {
+    padding: 1rem;
+  }
+}
+
+
+

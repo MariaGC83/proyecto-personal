@@ -1,0 +1,33 @@
+//Settings
+//------------------------
+
+.settings {
+  display: grid;
+  position: relative;
+  padding: 12px 20px 22px 25px;
+  
+
+  &__fontSize {
+    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  &__background {
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    
+  }
+
+  &__selection {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    padding: rem(20px) rem(70px);
+    text-align: center;
+
+  }
+}
+

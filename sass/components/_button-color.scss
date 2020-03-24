@@ -1,0 +1,112 @@
+//Button-color
+//Change background color
+//-----------------------
+
+$buttons: (
+  Uno: (
+    "color":  #f2a900,
+  ),
+  Dos: (
+    "color": #ecb4ea,
+  ),
+  Tres: (
+    "color": #519aca,
+  ),
+  Cuatro: (
+    "color": #51caa6,
+  ),
+  Cinco:(
+    "color": #714981,
+  ),
+  Seis: (
+    "color": #0092bc,
+  ),
+  Siete: (
+    "color": #78d64b,
+  ),
+  Ocho: (
+    "color": #d539b5,
+  )
+);
+
+.button-color {
+  width: rem(50px);
+  height: rem(50px);
+  border-radius: 50px;
+  
+  
+  @each $element, $button in $buttons {
+    #{$element} {
+      background-color: map-get($button, color);
+    }
+  }
+}
+//////////////
+
+/*.btn {
+ 
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  border: 0;
+  min-width: 4rem;
+  min-height: 1rem;
+  color: #fff;
+  font-family: $font-family-primary;
+  font-weight: $font-weight-large;
+  font-size:$font-size-btn;
+  margin-top: rem(10px);
+  padding: 8px 10px;
+  perspective: rem(400px);
+
+ &__action {
+    display: inline-flex;
+  }
+
+  &--success, &--done {
+    background-color: $save-add;   
+  }
+
+  &--size {
+    width: rem(90px);
+    background-color: rgb(62, 105, 161);
+  }
+
+  &--app {
+    width: rem(113px);
+    height: rem(35px);
+    margin: rem(20px);
+    background-color: rgb(62, 105, 161);
+
+    &--app:hover {
+      background-color: rgb(105, 137, 163);
+    }
+  }
+
+  &--link:hover, &--recover:hover {
+    color: $link-color;
+  }
+
+  &--linkUser {
+    text-decoration: none;
+
+    &:hover {
+      color: $link-color;
+    }
+  }
+
+  &--fav {
+    width: rem(180px);
+    height: rem(100px);
+    background-color: #fff;
+    color: $button-favorite;
+    border-color: $button-border-color;
+   
+
+    &:hover {
+      background-color: $button-favorite;
+      color: #fff;
+      border-color: $button-border-color;
+    }
+  }
+}*/

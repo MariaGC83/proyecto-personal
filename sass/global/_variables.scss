@@ -15,20 +15,26 @@ $favorite:   #dda2c4;
 
 $gray-100:   #e5e5e8;
 $gray-200:   #dcdcdf;
-$gray-300:   #c7c7cd;
+$gray-300:   #c7c9cd38;
 
 
 //Scaffolding
 //---------------------------
 $body-color:        #fff;
-$body-bgc:          #47e2da;
+$body-bgc:          #80f7d9;
+$body-bgc-first:    #f2a900;
 $body-bgc-second:   #ecb4ea;
 $body-bgc-third:    #519aca; 
 $body-bgc-fourth:   #51caa6; 
-$body-bgc-fifth:    #714981; 
+$body-bgc-fifth:    #714981;
+$body-bgc-sixth:    #0092bc;
+$body-bgc-seventh:  #78d64b;
+$body-bgc-eighth:   #d539b5;
+
 
 $link-decoration:   underline;
 $link-hover:        none;
+$link-color:        rgb(123, 87, 165);
 
 $paragraph-bottom: 1rem;
 
@@ -42,12 +48,12 @@ $font-primary: "Muli";
 $font-family-primary:   $font-primary, Arial, sans-serif;
 //$font-family-secondary: $font-secondary, serif;
 
-$font-size-base:        16px;
-$font-size-title:       40px;
-$font-size-subtitle:    20px;
-$font-size-secondHead:  30px;
-$font-size-label:       17px;
-$font-size-btn:         17px;
+$font-size-base:            16px;
+$font-size-title:           40px;
+$font-size-subtitle:        25px;
+$font-size-subtitleField:   20px;
+$font-size-label:           14px;
+$font-size-btn:             17px;
 
 $font-weight-light:   300;
 $font-weight-normal:  400;
@@ -55,5 +61,25 @@ $font-weight-medium:  500;
 $font-weight-large:   600;
 $font-weight-bold:    700;
 $font-weight-super:   800;
+
+//Buttons
+//--------------
+
+$button-color-default:   #0077cf;
+$button-favorite:        rgb(215, 191, 241);
+$button-border-color:    rgb(215, 191, 241);
+$button-color: #fff;
+
+$button-padding: 8px 13px;
+$button-radius: 4px;
+$button-font-size: $font-size-base;
+
+
+$button-background: radial-gradient(ellipse at center, #517DB9 0%,#0067AC 100%);
+$button-box-shadow: 0px 0px 0px #0E4174;
+$button-box-shadow-hover: 0px 5px 0px #0E4174;
+$button-text-shadow-active:0 0 4px #6800ad;
+$button-box-shadow-active: 0 1px 0 #423847;//no cambiarlo
+$button-background-active: radial-gradient(ellipse at center, #147BD1 0%,#0084D5 100%);
 
 

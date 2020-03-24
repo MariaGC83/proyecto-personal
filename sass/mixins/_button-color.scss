@@ -1,0 +1,47 @@
+//Botones
+//---------
+
+.button {
+  width: 45px;
+  height: 45px;
+  border: 0;
+  border-radius: 100%;
+}
+
+//Mixin
+@mixin button-bg($bg) {
+  background: $bg;
+  &:hover {
+    background: darken($bg,3%);
+    transition: all 0.3s ease;
+  }
+  &:active {
+    background: darken($bg,25%);
+  } 
+}
+
+
+.button-uno {
+  @include button-bg(#f2a900);
+}
+.button-dos {
+  @include button-bg(#ecb4ea);
+}
+.button-tres {
+  @include button-bg(#519aca);
+}
+.button-cuatro {
+  @include button-bg(#51caa6);
+}
+.button-cinco {
+  @include button-bg(#714981);
+}
+.button-seis {
+  @include button-bg(#0092bc);
+}
+.button-siete {
+  @include button-bg(#78d64b);
+}
+.button-ocho {
+  @include button-bg(#d539b5);
+}

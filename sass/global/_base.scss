@@ -3,7 +3,7 @@
 //------------------
 
 body {
-  background-color: $body-bgc;
+  background-color: #fff; //$body-bgc;
   color: $body-color;
   font-family: $font-family-primary;
   font-size: $font-size-base;
@@ -19,7 +19,9 @@ h2 {
   font-weight: $font-weight-medium;
 }
 
-/*p, ul, ol, blockquote, address, table {
+p, ol, blockquote, address, table {
   margin-bottom: $paragraph-bottom;
+  letter-spacing: 0.03rem;
   
-}*/
+ 
+}

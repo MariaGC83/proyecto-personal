@@ -12,33 +12,36 @@
   
 
   &__group {
-     margin: 0.5rem;
+    padding: 1rem rem(16px) 0;
+    
+    &--action {
+      padding-top: 1rem;
+    }
   }
 
   &__label {
-    font-size: $font-size-label; 
+    margin-left: rem(12px);
+    font-size: $font-size-label;
+    color: #333; 
   }
 
   &__control {
-  display: block;
-  margin-top: 0.5rem;
-  width: 18rem;
-  height: 2rem;
-  border: 1px solid rgb(0, 238, 255);
-  border-radius: 3px;
+    display: block;
+    margin-top: 0.5rem;
+    width: 18rem;
+    height: 2rem;
+    border: 1px solid rgb(161, 184, 187);
+    border-radius: 12px;
   }
   
   &__action {
-    padding-top: 2rem;
-
+    padding-top: 1.5rem;
   }
 
   &__registeredUser { 
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem;   
+    padding: 1rem;
+    text-decoration: none;
+    font-size: $font-size-label; 
       
   }
   

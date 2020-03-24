@@ -7,14 +7,37 @@
   <title>User data</title>
 </head>
 <body>
-  <header class="header">
-    <h1 class="header__secondary">Datos usuario</h1>
+  <div class="navbar-container">
+    <nav class="navbar">
+      <div class="navbar navbar__logo">
+        <h4>CookTheList</h4>
+      </div>
+      <div class="navbar navbar__links">
+        <ul>
+          <li class="navbar__links--list"><a class="navbar__links--list-pages" href="#">Mi cuenta</a></li>
+          <li class="navbar__links--list"><a class="navbar__links--list-pages" href="#">Nueva lista</a></li>
+          <li class="navbar__links--list"><a class="navbar__links--list-pages" href="#">Recetas</a></li>
+          <li class="navbar__links--list"><a class="navbar__links--list-pages" href="#">Ajustes</a></li>
+          <li class="navbar__links--list"><a class="navbar__links--list-pages" href="#">Cerrar sesión</a></li>
+        </ul>
+      </div>
+      <div class="navbar navbar__burguer">
+        <div class="navbar__burguer--line"></div>
+        <div class="navbar__burguer--line"></div>
+        <div class="navbar__burguer--line"></div>
+      </div>
+    </nav>
+  </div>
+  <header class="header header__user">
+    <div class="header__action">
+      <h1 class="header__title">Datos usuario</h1>
+        
       <!--incluir AQUI FLECHA para volver a la HOME-->
      <!--incluir AQUI SVG AVATAR -->
-      <div class="header__action"></div>
+    </div> 
   </header>
   <main>
-    <div class="container">
+    <div class="container container__user">
       <form action="..." class="form"><!--Formulario-->
         <div class="form__group">
           <label for="name" class="form__label">Nombre</label>
@@ -32,11 +55,12 @@
           <label for="inputPassword" class="form__label">Contraseña</label>
           <input type="password" name="password" id="inputPassword" class="form__control" maxlength="20" placeholder="********************" required>
         </div>
-        <div class="form__group">
-          <button type="submit" class="btn btn__btn--done">Guardar</button>  
+        <div class="form__group--action">
+          <button type="submit" class="btn btn--success">Guardar</button>  
         </div>  
       </form><!--//fin del formulario-->
     </div>
-  </main> 
+  </main>
+  <script src="../js/navbar.js"></script>
 </body>
 </html>

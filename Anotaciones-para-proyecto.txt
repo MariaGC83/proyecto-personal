@@ -1,0 +1,4 @@
+Anotaciones para el proyecto:
+_____________________________
+
+1 Ya que voy a utilizar Bootstrap primero en el Style.scss importar los módulos que puedan serme de utilidad como la modal, formularios, botones, mixins, close(para cerrar el formulario o la modal) y después para que prevalezcan mis estilos sobre los de Bootstrap, coge las variables del componente que quieras modificar, las proporcionadas por la librería, y para cambiarlas lo que se hace es las copias y las pegas después en variables y le asignas después lo que tu consideres.

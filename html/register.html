@@ -3,19 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu-slider</title>
+  
   <link rel="stylesheet" href="../assets/css/style.css">
-  <title>New user registration</title>
 </head>
 <body>
-  <header class="header header--action">
-   
+  <div class="navbar-container">
+    <nav class="navbar">
+      <div class="navbar navbar__logo">
+        <h4>CookTheList</h4>
+      </div>
+      <div class="navbar navbar__links">
+        <ul>
+          <li class="navbar__links--list"><a class="navbar__links--list-pages" href="#">Mi cuenta</a></li>
+          <li class="navbar__links--list"><a class="navbar__links--list-pages" href="#">Nueva lista</a></li>
+          <li class="navbar__links--list"><a class="navbar__links--list-pages" href="#">Recetas</a></li>
+          <li class="navbar__links--list"><a class="navbar__links--list-pages" href="#">Ajustes</a></li>
+          <li class="navbar__links--list"><a class="navbar__links--list-pages" href="#">Cerrar sesión</a></li>
+        </ul>
+      </div>
+      <div class="navbar navbar__burguer">
+        <div class="navbar__burguer--line"></div>
+        <div class="navbar__burguer--line"></div>
+        <div class="navbar__burguer--line"></div>
+      </div>
+    </nav>
+  </div>
+  <header class="header">
+    <div class="header__action">
       <h1 class="header__title">Registro</h1>
       <!--incluir AQUI FLECHA para volver a la HOME-->
-        <div class="btn__action">
+        <div class="container__button">
           <button type="submit" class="btn btn--app">Google</button>
           <button type="submit" class="btn btn--app">Facebook</button>
         </div>
-       
+    </div>
   </header>
   <main>
     <div class="container">
@@ -41,10 +63,11 @@
           <input type="password" name="password" id="inputPassword" class="form__control" maxlength="20"  required>
         </div>
         <div class="form__group">
-          <button type="submit" class="btn btn--done">Regístrate</button>  
+          <button type="submit" class="btn btn--success">Regístrate</button>  
         </div>  
       </form><!--//fin del formulario-->
     </div>
   </main> 
+  <script src="../js/navbar.js"></script>
 </body>
 </html>

@@ -1,0 +1,74 @@
+/*Navbar------
+---------------*/
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: $body-bgc;
+    overflow-x: hidden;
+    padding-left: 1px;
+    
+    &__logo {
+      color: #fff;
+      text-transform: capitalize;
+      letter-spacing: 5px;
+      font-size: $font-size-subtitle;
+      font-weight: $font-weight-large;
+      
+    }
+    &__links {
+      position: absolute;
+      width: 50%;
+      right: 0px;
+      height: 79vh;
+      top: 7vh;
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in;
+      
+
+      &--list {
+        list-style: none;
+        opacity: 0;
+        padding-bottom: rem(8px);
+        //height: 5rem;
+      }
+
+      &--list-pages {
+        color: #fff;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-weight: font-weight-medium;
+        font-size: $font-size-base;
+        
+      }
+    }
+
+    &__burguer {
+      display: block;
+      padding-top: 8px;
+
+      &--line {
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 5px;
+      }
+    }
+  }
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
